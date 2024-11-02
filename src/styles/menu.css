@@ -52,12 +52,6 @@
     color: var(--color-primary-6);
 }
 
-.dish-price {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
 @media screen and (max-width: 1170px) {
     #dishes {
         flex-wrap: wrap;
