@@ -38,6 +38,15 @@ header {
     background: linear-gradient(-90deg,#EE6112,#FFD15C);
 }
 
+.title-header h1 {
+    margin-left: 10px;
+    font-size: 22px;
+    color: rgb(65, 63, 63);
+    font-weight: 700;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
 /* Grupo do input de pesquisa */
 .input-group {
     display: flex;
