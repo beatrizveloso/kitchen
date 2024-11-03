@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Estilo global para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo do corpo da página */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DAD5C9;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #5D5957;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    padding-top: 5px;
+}
+
+.line-orange {
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(-90deg,#EE6112,#FFD15C);
+}
+
+/* Grupo do input de pesquisa */
+.input-group {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px 16px 8px 8px;
+    border-radius: 24px;
+    margin-top: 20px;
+    gap: 8px;
+}
+
+/* Ícone do input de pesquisa */
+.input-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    min-height: 32px;
+    border-radius: 100%;
+    background-color: #EE6112;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Campo de input de pesquisa */
+.input-field {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+/* Remove a borda quando o campo está em foco */
+.input-field:focus {
+    outline: none;
+}
+
+/* Lista de itens */
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 12px;
+    background-color: #ece7db;
+    list-style: none;
+    border-radius: 24px;
+    width: 1000px;
+    padding: 14px;
+    gap: 12px;
+    max-height: 421px;
+    overflow-y: auto;
+}
+
+/* Item individual da lista */
+.item {
+    display: flex;
+    gap: 12px;
+}
+
+/* Imagem do item */
+.item-image {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+}
+
+/* Imagem dentro do contêiner da imagem */
+.item-image img {
+    width: 100px;
+    height: 120px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Título do item */
+.item-title {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Subtítulo do item */
+.item-subtitle {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Descrição do item */
+.item-description {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Mensagem "nenhum resultado encontrado" */
+#no_results {
+    display: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.card {
+    width: 305px;
+    height: 403px;
+    background-color: #EEEEEE;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.card img {
+    width: 305px;
+}
+
+.faixa-laranja {
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(-90deg,#EE6112,#FFD15C);
+    margin-top: -7px;
+}
+
+.card h1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.card p {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #938989;
+    font-weight: 700;
+    padding-left: 10px;
+    margin-top: 8px;
+}
+
+.timer,
+.people {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.timer h1,
+.people h1 {
+    margin-left: -5px;
+    margin-top: 9px;
+}
+
+.timer img,
+.people img{
+    width: 40px;
+}

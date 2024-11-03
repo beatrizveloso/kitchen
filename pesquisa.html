@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para o CSS do Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link para o arquivo CSS personalizado -->
+    <link rel="stylesheet" href="src/styles/pesquisa.css">
+    <title>Search bar</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+          <img src="src/images/name-logo.svg" alt="">
+        </div>
+    </header>
+    <div class="line-orange"></div>
+
+
+    <div id="container">
+        <!-- Input de pesquisa -->
+        <div class="input-group">
+            <!-- Ícone da lupa -->
+            <div class="input-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <!-- Campo de input de pesquisa -->
+            <input id="search" type="text" class="input-field" placeholder="Pesquisar">
+        </div>
+
+        <!-- Lista de itens -->
+        <ul class="items">
+            <!-- Item 1 -->
+            <li class="item">
+                <div class="card">
+                    <img src="src/images/crepioca.svg" alt="">
+                    <div class="faixa-laranja"></div>
+                    <!-- Título -->
+                    <h1 class="item-title">Crepioca com queijo</h1>
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        Contém: Tapioca, ovo, queijo.
+                    </p>
+                    <div class="timer">
+                        <img src="src/images/timer.svg" alt="">
+                        <h1>12 min</h1>
+                    </div>
+                    <div class="people">
+                        <img src="src/images/profile.svg" alt="">
+                        <h1>1 Porção</h1>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Item 2 -->
+            <li class="item">
+                <div class="card">
+                    <img src="src/images/tapioca.svg" alt="">
+                    <div class="faixa-laranja"></div>
+                    <!-- Título -->
+                    <h1 class="item-title">Tapioca com ovo e queijo</h1>
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        Contém: Tapioca, Ovo, queijo.
+                    </p>
+                    <div class="timer">
+                        <img src="src/images/timer.svg" alt="">
+                        <h1>12 min</h1>
+                    </div>
+                    <div class="people">
+                        <img src="src/images/profile.svg" alt="">
+                        <h1>1 Porção</h1>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Item 3 -->
+            <li class="item">
+                <div class="card">
+                    <img src="src/images/ovos-mexidos.svg" alt="">
+                    <div class="faixa-laranja"></div>
+                    <!-- Título -->
+                    <h1 class="item-title">Ovos mexidos com queijo</h1>
+                    <!-- Descrição -->
+                    <p class="item-description">
+                        Contém: Ovo, queijo.
+                    </p>
+                    <div class="timer">
+                        <img src="src/images/timer.svg" alt="">
+                        <h1>10 min</h1>
+                    </div>
+                    <div class="people">
+                        <img src="src/images/profile.svg" alt="">
+                        <h1>1 Porção</h1>
+                    </div>
+                </div>
+            </li>
+
+
+
+            <!-- Mensagem "nenhum resultado encontrado" -->
+            <li id="no_results" style="display: none;">
+                <p>Nenhum resultado encontrado</p>
+            </li>
+        </ul>
+    </div>
+    <!-- Link para o arquivo JavaScript -->
+    <script src="src/javascript/script3.js"></script>
+</body>
+
+</html>
