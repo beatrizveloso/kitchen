@@ -7,6 +7,91 @@
     box-sizing: border-box;
 }
 
+body { 
+    background-color: #F9FAFB;
+}
+
+header {
+    width: 100%;
+    height: tes;
+    padding: 28px 8%;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-primary-1);
+    z-index: 3;
+}
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_logo {
+    font-size: 24px;
+    color: var(--color-primary-6);
+}
+
+#nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
+
+.nav-item.active a {
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid var(--color-primary-4);
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #nav_list,
+    #navbar .btn-default {
+        display: none;
+    }
+
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item {
+        list-style: none;
+        text-align: center;
+    } 
+}
+
+
 #testimonials {
     min-height: 100vh;
     background-color: #f9fafb;
@@ -19,13 +104,14 @@
 }
 
 #testimonials_header {
+    margin-top: -120px;
     text-align: center;
 }
 
 #testimonials_header h1 {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
-    color: #3758f9;    
+    color: #EE6112;    
 }
 
 #testimonials_header h2 {
@@ -37,6 +123,7 @@
     color: #637381;
     font-size: 16px;
     max-width: 485px;
+    margin-top: 20px;
 }
 
 .swiper {
@@ -105,7 +192,7 @@
     background-color: #fff;
     width: 25px;
     height: 25px;
-    color: #3758f9;
+    color:#EE6112;
     border: 1px solid #f9fafb;
     border-radius: 100%;
     box-shadow: 0px 0px 20px 0px rgba(92, 115, 160, 0.2);
@@ -134,5 +221,5 @@
 }
 
 .swiper-pagination.active {
-    background-color: #3758f9;
+    background-color: #f97e37;
 }
