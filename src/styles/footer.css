@@ -1,18 +1,107 @@
-footer {
-    background-color: var(--color-primary-2);
-}
 
-#footer_items {
+.faixa-logo {
+    width: 100%;
+    height: 65px;
+    background: #F8F4F4;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 8% 24px 8%;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
 }
 
-#copyright {
-    color: var(--color-neutral-1);;
-    font-weight: 500;
+.faixa-logo img{
+    width: 200px;
 }
+
+footer {
+    width: 100%;
+    height: 430px;
+    background-color: #413F3D;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  footer li {
+    color:white;
+    margin: 20px;
+    font-family: "Fjord One", serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  
+  hr {
+    width: 290px;
+    margin-left: 10px;
+  }
+  
+  .tel-footer,
+  .whats-footer,
+  .insta-footer,
+  .local-footer,
+  .carta-footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    padding-top: 19px;
+    padding-left: 8px;
+    gap: 10px;
+  }
+  
+  .tel-footer img,
+  .whats-footer img,
+  .insta-footer img,
+  .local-footer img,
+  .carta-footer img {
+    width: 45px;
+    display: flex;
+    padding-left: 10px;
+  }
+  
+  .tel-footer p,
+  .whats-footer p,
+  .insta-footer p,
+  .local-footer p,
+  .carta-footer p {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    padding-top: 14px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .menu-footer p {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 24px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .menu-footer ul p {
+    font-family: "Fira Sans Condensed", sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-top: 24px;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .location-footer img {
+    width: 20%;
+    display: flex;
+    padding-top: 19px;
+    padding-left: 8px;
+  }
+  
+  iframe {
+    width: 100%;
+    height: 40%;
+    box-shadow: 0px 0px 0px 5px #B74201;
+  }
 
 @media screen and (max-width: 600px) {
     #footer_items {
