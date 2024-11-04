@@ -1,0 +1,6 @@
+# Website Kitchen Mix
+![image](https://github.com/user-attachments/assets/5d23bab6-bb45-447a-9f72-23895ea1511c)
+![image](https://github.com/user-attachments/assets/89f92069-20de-4d15-864b-a26300d9fdfb)
+![image](https://github.com/user-attachments/assets/274e30b5-59c5-446c-a51d-36dd5b49dbf8)
+![image](https://github.com/user-attachments/assets/bc5cfd59-54b6-4514-b036-e8fa570c98ac)
+![image](https://github.com/user-attachments/assets/c71439ba-5e4c-4e05-aca8-30d73cb8243d)
