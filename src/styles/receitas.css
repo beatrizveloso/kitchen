@@ -17,7 +17,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: var(--color-primary-1);
+    background-color: #FFF9EA;
     z-index: 3;
 }
 
@@ -137,14 +137,12 @@ p {
 }
 
 .text-p {
-    width: 420px;
+    width: 520px;
     text-align: justify;
     font-size: 22px;
     color: #504E4E;
     font-weight: 600;
 }
-
-
 
 footer {
     background-color: #FFE8B4;
@@ -178,14 +176,38 @@ footer {
     padding-left: 120px;
 }
 
-.ingredientes h1{
-    padding-top: 30px;
+.ingredientes h1,
+.passos h1 {
+    padding-top: 60px;
     font-size: 24px;
     display: flex;
 }
 
-.ingredientes p{
-    width: 600px;
+.ingredientes p,
+.align-passos p{
     font-size: 22px;
     color: #504E4E;
 }
+
+.align-passos {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.align-passos img {
+    height: 60px;
+}
+
+.align-passos p {
+    padding-left: 30px;
+}
+
+.passos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    padding-left: 120px;
+}
+
