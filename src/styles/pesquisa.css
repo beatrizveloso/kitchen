@@ -145,13 +145,6 @@ header {
     text-align: center;
 }
 
-
-
-
-
-
-
-
 .card {
     width: 305px;
     height: 413px;
@@ -186,6 +179,17 @@ header {
     padding-left: 10px;
     margin-top: 8px;
 }
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#FFD15C, #EE6112);
+    border-radius: 100px;
+  }
 
 .timer,
 .people {

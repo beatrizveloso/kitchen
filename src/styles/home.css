@@ -4,6 +4,17 @@
     position: relative;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#FFD15C, #EE6112);
+    border-radius: 100px;
+  }
+
 #cta {
     width: 35%;
     display: flex;
