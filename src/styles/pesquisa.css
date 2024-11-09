@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 /* Estilo global para todos os elementos */
 * {
@@ -88,14 +88,15 @@ header {
 /* Lista de itens */
 .items {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
     margin-top: 12px;
     background-color: #ece7db;
     list-style: none;
     border-radius: 24px;
-    width: 1000px;
+    width: 1020px;
     padding: 14px;
-    gap: 12px;
     max-height: 421px;
     overflow-y: auto;
 }
@@ -103,7 +104,8 @@ header {
 /* Item individual da lista */
 .item {
     display: flex;
-    gap: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
 }
 
 /* Imagem do item */
@@ -208,4 +210,4 @@ header {
 .timer img,
 .people img{
     width: 40px;
-}
+} 
