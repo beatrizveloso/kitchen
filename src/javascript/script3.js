@@ -1,6 +1,7 @@
-document.getElementById("search").addEventListener("input", function() {
+document.getElementById("search").addEventListener("input", function() { 
     const searchTerm = this.value.toLowerCase();
-    const searchWords = searchTerm.split(" ").filter(word => word); // Divide o termo de pesquisa em palavras e remove espaços em branco
+    // Divide o termo de pesquisa por vírgulas ou espaços, e remove espaços extras
+    const searchWords = searchTerm.split(/[ ,]+/).filter(word => word);
     const items = document.querySelectorAll(".items .item, .items .card");
     let hasResults = false;
 
@@ -9,7 +10,7 @@ document.getElementById("search").addEventListener("input", function() {
 
     items.forEach(item => {
         const itemText = normalizeText(item.textContent.toLowerCase());
-        // Verifica se todas as palavras de busca estão no texto do item
+        // Verifica se todas as palavras de busca estão no texto do item, sem depender da ordem
         const match = searchWords.every(word => itemText.includes(normalizeText(word)));
         
         if (match) {

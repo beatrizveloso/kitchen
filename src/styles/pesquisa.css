@@ -92,7 +92,7 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 12px;
-    background-color: #ece7db;
+    background-color: #cec9be;
     list-style: none;
     border-radius: 24px;
     width: 1020px;
@@ -125,7 +125,7 @@ header {
 
 /* Título do item */
 .item-title {
-    font-size: 18px;
+    font-size: 16px;
     color: #333;
 }
 
