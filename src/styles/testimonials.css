@@ -88,3 +88,7 @@
         flex-direction: column;
     }
 } 
+
+.btn-default {
+    color: black;
+}
