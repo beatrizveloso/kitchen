@@ -3,6 +3,7 @@
 @import url('home.css');
 @import url('start.css');
 @import url('menu.css');
+@import url('cadastro.css');
 @import url('testimonials.css');
 @import url('footer.css');
 
@@ -31,6 +32,7 @@ html {
 }
 
 body {
+    width: 100%;
     background-color: var(--color-primary-1);
 }
 
