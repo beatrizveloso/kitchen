@@ -110,9 +110,9 @@ label.btn {
 }
 
 .btn-outline-primary {
-    border-color: #26B4FF;
+    border-color: #f35213;
     background  : transparent;
-    color       : #26B4FF;
+    color       : #ff6326;
 }
 
 .btn {
@@ -200,8 +200,20 @@ html:not(.dark-style) .account-settings-links .list-group-item.active {
     border-color: rgba(24, 28, 33, 0.03) !important;
 }
 
+/* Scrollbar */
+::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(#FFD15C, #EE6112);
+    border-radius: 100px;
+  }
+
 h4 {
     font-size: 19px;
     font-weight: 600;
     color: black;
 }
+
